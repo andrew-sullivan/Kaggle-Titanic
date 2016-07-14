@@ -51,3 +51,4 @@ PassengerId <- test$PassengerId
 Survived <- log.fit2.pred
 log.fit2.df <- data.frame(PassengerId, Survived)
 write.csv(log.fit2.df, file = "log.fit2.csv", row.names = FALSE)
+
